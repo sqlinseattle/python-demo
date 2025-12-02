@@ -1,0 +1,63 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run: print_btc.py",
+      "type": "shell",
+      "command": "& \"C:\\Users\\andre\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" print_btc.py",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "windows": {
+        "options": {
+          "shell": {
+            "executable": "powershell.exe",
+            "args": ["-NoProfile", "-Command"]
+          }
+        }
+      }
+    },
+    {
+      "label": "Test: test_get_btc_price.py",
+      "type": "shell",
+      "command": "& \"C:\\Users\\andre\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" test_get_btc_price.py",
+      "group": {
+        "kind": "test"
+      },
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "windows": {
+        "options": {
+          "shell": {
+            "executable": "powershell.exe",
+            "args": ["-NoProfile", "-Command"]
+          }
+        }
+      }
+    },
+    {
+      "label": "Install: requirements.txt",
+      "type": "shell",
+      "command": "& \"C:\\Users\\andre\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -m pip install -r requirements.txt",
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "windows": {
+        "options": {
+          "shell": {
+            "executable": "powershell.exe",
+            "args": ["-NoProfile", "-Command"]
+          }
+        }
+      }
+    }
+  ]
+}

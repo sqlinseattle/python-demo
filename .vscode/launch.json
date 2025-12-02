@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: print_btc.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/print_btc.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "pythonPath": "C:/Users/andre/AppData/Local/Programs/Python/Python314/python.exe"
+    },
+    {
+      "name": "Python: test_get_btc_price.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/test_get_btc_price.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "pythonPath": "C:/Users/andre/AppData/Local/Programs/Python/Python314/python.exe"
+    }
+  ]
+}
