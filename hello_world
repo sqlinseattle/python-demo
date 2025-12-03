@@ -1,1 +1,47 @@
-print("hello world!")
+# print("hello world!\nhello world!")
+
+# name = input("What is your name? ")
+# print(f"Hello, {name}!")T
+
+# age = input("How old are you? ")
+# print(f"You are {age} years old!")
+
+# city = input("Which city do you live in? ")
+# pet_name = input("What is your pet's name? ")
+# print (f"Your band name could be {city} {pet_name}."[4])
+
+#print ("Your band name could be"[5])
+
+
+# a = type(False)
+# print("123_45.67 is of type:", a)
+
+
+# print (int("123") + int("456"))
+# print (float("123.45") + float("67.89"))
+# print (str(123) + str(456))
+
+# name = input("What is your name? ")
+# print ("Number of letters in your name: " + str(len(name)))
+
+print (5/3)
+print (5//3)
+
+print (2**4)
+
+print (int(3 * (3 + 3) / 3 - 3) )
+
+import math
+print(math.pi)           # -> 3.141592653589793
+print(f"{math.pi:.6f}")  # -> 3.141593
+print(f"{math.pi:.15f}") # -> 3.141592653589793
+print ("rounded: " + str(round(math.pi, 8  )))
+
+a = int("5") / int(2.7)
+print(type(a))
+
+price = "91269.0"
+print(f"Price: ${price}")  # Output: Price: $91269.00
+
+
+print(6 + 4 / 2 - (1 * 2))

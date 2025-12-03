@@ -27,3 +27,21 @@ def get_btc_price_usd() -> Optional[float]:
         return round(float(price), 2)
     except Exception:
         return None
+
+
+def main() -> None:
+    """Run-time entrypoint for `python get_btc_price.py`.
+
+    Prints the current Bitcoin price in USD to stdout.
+    """
+    price = get_btc_price_usd()
+    if price is None:
+        print("Failed to fetch Bitcoin price.")
+    else:
+        print(f"Bitcoin price (USD): ${price}")
+
+    input("Press Enter to exit...")
+
+
+if __name__ == "__main__":
+    main()
