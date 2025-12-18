@@ -1,8 +1,8 @@
 import sys
 import os
 import random
-from hangman_words import word_list
-from hangman_art import stages, logo
+from day_7_hangman_words import word_list
+from day_7_hangman_art import stages, logo
 
 global lives_remaining 
 lives_remaining = 6
